@@ -21,7 +21,7 @@ Package.onUse(function(api) {
 
 	api.imply([
 		'lepozepo:s3',
-		'hckrs:summernote',
+		'nicolaslopezj:summernote',
 		]);
 
 	api.addFiles([
