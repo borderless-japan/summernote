@@ -5,6 +5,8 @@ Template.orionSummernote.events({
 Template.orionSummernote.rendered = function () {
     var key = this.data.name;
     var element = $('.summernote[data-schema-key="' + key + '"]');
+    var parent = element.closest(".panel-body");
+    parent.addClass('summernote-container');
     element.summernote({
         height: 300,
         toolbar: [
@@ -15,8 +17,12 @@ Template.orionSummernote.rendered = function () {
         ],
         onImageUpload: function(files, editor, $editable) {
             element.parent().find('.progress').show();
-            S3.upload(files,"/summernote-images",function(e,r){
-                editor.insertImage($editable, r.url);
+            orion.filesystem.upload({fileList: files, name: files[0].name, folder: 'summernote', canRemove: true}, function(file, error) {
+                if (!error) {
+                    editor.insertImage($editable, file.url);
+                } else {
+                    console.log(error, "error uploading file")
+                }
                 element.parent().find('.progress').hide();
             });
         }
