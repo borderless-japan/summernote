@@ -165,14 +165,6 @@
       "1.0.0"
     ],
     [
-      "lepozepo:s3",
-      "4.1.1"
-    ],
-    [
-      "lepozepo:streams",
-      "0.2.0"
-    ],
-    [
       "less",
       "1.0.11"
     ],
@@ -230,7 +222,7 @@
     ],
     [
       "nicolaslopezj:summernote",
-      "0.1.0"
+      "0.1.1"
     ],
     [
       "npm-bcrypt",
