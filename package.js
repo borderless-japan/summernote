@@ -1,7 +1,7 @@
 Package.describe({
 	name: 'orionjs:summernote',
 	summary: 'Summernote editor for orionjs',
-	version: '0.2.1',
+	version: '0.2.2',
 	git: 'https://github.com/orionjs/summernote'
 });
 
@@ -9,7 +9,7 @@ Package.onUse(function(api) {
 	api.versionsFrom('1.0');
 
 	api.use([
-		'orionjs:core@0.1.0',
+		'orionjs:core@0.1.2',
 		'meteor-platform',
 		'less',
 		'aldeed:autoform@4.0.2', 

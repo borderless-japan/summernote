@@ -4,7 +4,6 @@ aldeed:autoform@4.2.1
 aldeed:collection2@2.0.0
 aldeed:delete-button@1.0.0
 aldeed:simple-schema@1.1.0
-aldeed:tabular@0.2.2
 application-configuration@1.0.4
 autoupdate@1.1.4
 base64@1.0.2
@@ -53,14 +52,15 @@ mongo@1.0.11
 mongo-livedata@1.0.7
 mrt:moment@2.6.0
 natestrauser:font-awesome@4.2.0
+nicolaslopezj:tabular@0.2.2
 npm-bcrypt@0.7.7
 observe-sequence@1.0.4
 ordered-dict@1.0.2
 orionjs:admin@0.3.0
-orionjs:core@0.1.0
+orionjs:core@0.1.2
 orionjs:filesystem@0.0.8
 orionjs:styles@0.0.2
-orionjs:summernote@0.2.1
+orionjs:summernote@0.2.2
 random@1.0.2
 reactive-dict@1.0.5
 reactive-var@1.0.4
