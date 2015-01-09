@@ -9,11 +9,11 @@ Package.onUse(function(api) {
 	api.versionsFrom('1.0');
 
 	api.use([
-		'orionjs:core@0.1.2',
+		'orionjs:core@0.3.0',
 		'meteor-platform',
 		'less',
 		'aldeed:autoform@4.0.2', 
-		'orionjs:filesystem@0.0.6', 
+		'orionjs:filesystem@0.0.12', 
 		'summernote:standalone@0.6.0',
 		'jquery@1.0.0'
 		]);
