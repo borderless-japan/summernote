@@ -3,7 +3,7 @@ Orion Summernote
 
 This is the changelog for ```orionjs:summernote```. 
 
-### 0.2.5
+### 0.2.6
 
 - Make summernote options extendable.
 
