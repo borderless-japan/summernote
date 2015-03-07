@@ -1,7 +1,7 @@
 Summernote Editor For Orion
 ==========
 
-http://orion.meteor.com/docs/attributes/summernote
+http://orion.meteor.com/docs/attributes/text-editors
 
 Orion is a simple and useful cms for meteor. 
 Creates automatically a admin panel for 

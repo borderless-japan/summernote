@@ -1,7 +1,7 @@
 Package.describe({
 	name: 'orionjs:summernote',
-	summary: 'Summernote editor for orionjs',
-	version: '0.2.4',
+	summary: 'Summernote editor for orion',
+	version: '0.2.5',
 	git: 'https://github.com/orionjs/summernote'
 });
 
