@@ -9,13 +9,13 @@ Package.onUse(function(api) {
 	api.versionsFrom('1.0');
 
 	api.use([
-		'orionjs:core@0.4.1',
+		'orionjs:core@0.6.1',
 		'meteor-platform',
 		'less',
-		'aldeed:autoform@4.2.2', 
-		'orionjs:filesystem@0.0.13', 
+		'aldeed:autoform@5.1.2',
+		'orionjs:filesystem@0.0.16',
 		'summernote:standalone@0.6.0',
-		'jquery@1.0.0'
+		'jquery'
 		]);
 
 	api.imply([
